@@ -1,9 +1,87 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="V3nvNkLw-sUNxJkZc5XZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VIO2naygKmXkEl6lmRrt-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="730" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-20" value="√=" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="730" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-1" value="定时获取ETF清单" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="550" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-4" value="8点半到9点半，5分钟检测一次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="715" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIO2naygKmXkEl6lmRrt-5" target="VIO2naygKmXkEl6lmRrt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-5" value="校验ETF" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="254" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-7" value="下单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VIO2naygKmXkEl6lmRrt-9" target="VIO2naygKmXkEl6lmRrt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="800" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VIO2naygKmXkEl6lmRrt-14" target="VIO2naygKmXkEl6lmRrt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="VIO2naygKmXkEl6lmRrt-14" target="VIO2naygKmXkEl6lmRrt-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-36" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VIO2naygKmXkEl6lmRrt-35">
+          <mxGeometry x="0.04" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-14" value="启动获取ETF清单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="254" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VIO2naygKmXkEl6lmRrt-15" target="VIO2naygKmXkEl6lmRrt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="254" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-21" value="第一天" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-23" value="第二天" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="VIO2naygKmXkEl6lmRrt-30" target="VIO2naygKmXkEl6lmRrt-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-39" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VIO2naygKmXkEl6lmRrt-37">
+          <mxGeometry x="-0.1704" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-30" value="第一次拉取，如果有数据，清空本地内存，以实际为主， 否则还是用昨日的etf清单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="700" y="540" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="VIO2naygKmXkEl6lmRrt-31" target="VIO2naygKmXkEl6lmRrt-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-40" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VIO2naygKmXkEl6lmRrt-38">
+          <mxGeometry x="0.232" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-31" value="区间内5min 检测，获取数据和本地内存不一致，则覆盖本地内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="330" y="570" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VIO2naygKmXkEl6lmRrt-34" value="本地内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="414" width="70" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
