@@ -51,16 +51,16 @@
           <mxGeometry x="441" y="547.09" width="249" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R9i5wPIuISrtGQEBOl63-16" value="策略管理器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="168.75" y="552.09" width="230" height="85" as="geometry" />
+          <mxGeometry x="168.75" y="546.59" width="230" height="85" as="geometry" />
         </mxCell>
         <mxCell id="0-dD-s0z4eZFYw8BseGD-2" value="1. 客户端链接&amp;nbsp; 本地缓存一份、redis一份、 广播一份 （机构ID,&amp;nbsp; serverId）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-327.5" y="390" width="317.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0-dD-s0z4eZFYw8BseGD-7" value="ZK集群" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="617.5" width="80" height="292.5" as="geometry" />
+          <mxGeometry y="714.59" width="70" height="240" as="geometry" />
         </mxCell>
         <mxCell id="0-dD-s0z4eZFYw8BseGD-8" value="Redis集群" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="365" width="80" height="220" as="geometry" />
+          <mxGeometry x="-2.5" y="351.59" width="70" height="195" as="geometry" />
         </mxCell>
         <mxCell id="0-dD-s0z4eZFYw8BseGD-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-722.5" y="909.17" width="625" height="40" as="geometry" />
@@ -81,7 +81,7 @@
           <mxGeometry x="-652.5" y="909.17" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0-dD-s0z4eZFYw8BseGD-23" value="server_id 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="309.75" y="596.26" width="89" height="32.5" as="geometry" />
+          <mxGeometry x="309.75" y="590.76" width="89" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="0-dD-s0z4eZFYw8BseGD-24" value="server_id2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="625" y="592.09" width="60" height="30" as="geometry" />
@@ -186,7 +186,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fZogc4l2z4hbRh4Dm977-2" value="策略管理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="168.75" y="642.09" width="230" height="85" as="geometry" />
+          <mxGeometry x="168.75" y="636.59" width="230" height="85" as="geometry" />
         </mxCell>
         <mxCell id="fZogc4l2z4hbRh4Dm977-3" value="策略管理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="441" y="642.09" width="249" height="80" as="geometry" />
@@ -252,7 +252,7 @@
           <mxGeometry x="1770" y="621.6699999999998" width="210" height="25.83" as="geometry" />
         </mxCell>
         <mxCell id="fZogc4l2z4hbRh4Dm977-27" value="冷备1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="321" y="697.59" width="60" height="30" as="geometry" />
+          <mxGeometry x="321" y="692.09" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fZogc4l2z4hbRh4Dm977-28" value="冷备2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="625" y="694.59" width="60" height="30" as="geometry" />
@@ -277,6 +277,9 @@
         </mxCell>
         <mxCell id="fZogc4l2z4hbRh4Dm977-42" value="redis记录用户在网关节点的位置" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1160" y="891.55" width="260" height="52.62" as="geometry" />
+        </mxCell>
+        <mxCell id="fZogc4l2z4hbRh4Dm977-43" value="三方DB存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="563.26" width="70" height="136.74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
