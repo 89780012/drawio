@@ -1,9 +1,118 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="rbjTrnQubaZhu8TUefxR">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-10" target="Pjw4ReAp0QkN3uzusqus-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-10" target="Pjw4ReAp0QkN3uzusqus-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="340" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-1" target="Pjw4ReAp0QkN3uzusqus-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-1" value="ETF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;禁止现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_FORBIDDEN&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;可以现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_OPTIONAL&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;必须现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_MUST&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;深市退补现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_RECOMPUTE_INTER_SZ&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;深市必须现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_MUST_INTER_SZ&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;非沪深市场成分证券退补现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_RECOMPUTE_INTER_OTHER&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;表示非沪深市场成份证券必须现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_MUST_INTER_OTHER&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;港市退补现金替代（仅适用于跨沪深港&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;产品）&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_RECOMPUTE_INTER_HK&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;港市必须现金替代（仅适用于跨沪深港&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;产品）&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_MUST_INTER_HK&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); background-color: rgb(226, 255, 226); font-style: italic;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); background-color: rgb(226, 255, 226); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;深市可以现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;（仅适用于跨市场&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;全实物申赎&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;产品）&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_OPTIONAL_MARKET&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); background-color: rgb(226, 255, 226); font-style: italic;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); background-color: rgb(226, 255, 226); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;深市不可现金替代&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;（仅适用于跨市场&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;全实物申赎&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;产品）&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;ERT_CASH_FORBIDDEN_MARKET&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;无效值&lt;/span&gt;&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic;&quot;&gt;*/&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); font-style: italic;&quot;&gt;EPT_INVALID&lt;/span&gt;;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="760" width="440" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-3" target="Pjw4ReAp0QkN3uzusqus-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-3" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;1. 必须现金替代&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;2. 深市必须现金替代&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px; font-style: italic; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;3.非沪深市场成份证券必须现金替代&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px; font-style: italic; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;4. 港股必须现金替代&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-5" value="1.&lt;span style=&quot;font-size: 13.0667px; font-style: italic; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;深市退补现金替代&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px; font-style: italic; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 13.0667px; font-style: italic; white-space: pre;&quot;&gt;非沪深市场成分证券退补现金替代&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 13.0667px; font-style: italic; white-space: pre;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;港市退补现金替代（仅适用于跨沪深港&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;产品）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;4.&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; background-color: rgb(226, 255, 226); font-style: italic;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; background-color: rgb(226, 255, 226); font-style: italic;&quot;&gt;深市可以现金替代&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;（仅适用于跨市场&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;全实物申赎&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;产品）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontFamily=Helvetica;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="374" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-6" value="不存在于本市场票" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-9" value="1.&lt;span style=&quot;font-size: 13.0667px; font-style: italic; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;禁止现金替代&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;&lt;i&gt;2.&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; background-color: rgb(226, 255, 226); font-style: italic;&quot;&gt;深市不可现金替代&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;（仅适用于跨市场&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;全实物申赎&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;ETF&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;产品）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 13.0667px; white-space: pre; font-style: italic;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 13.0667px; font-style: italic; white-space: pre;&quot;&gt;无效值&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fontFamily=Helvetica;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.593;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-1" target="Pjw4ReAp0QkN3uzusqus-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-14" target="Pjw4ReAp0QkN3uzusqus-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-14" value="同市场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-15" target="Pjw4ReAp0QkN3uzusqus-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-15" value="非本市场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-18" value="累计预估差值" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-20" value="1. 累计溢价&lt;div&gt;2. 累计折价&lt;/div&gt;&lt;div&gt;3.累计数量&lt;/div&gt;&lt;div&gt;4. 累计预估差值&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-22" value="1. 累计溢价&lt;div&gt;2. 累计折价&lt;/div&gt;&lt;div&gt;3。累计预估现金差值&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-24" value="只有钱，不用做票数量和金额乘法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-25" value="有票的则根据票和价格做折价、溢价累计，然后还要计算预估差值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="280" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-26" value="折价、溢价的累加，归并到不同市场" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1300" y="110" width="80" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-20" target="Pjw4ReAp0QkN3uzusqus-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.926;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-22" target="Pjw4ReAp0QkN3uzusqus-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-30" value="合并计算算法1， 计算出&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; white-space: pre;&quot;&gt;estimateAmountDiff&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1540" y="120" width="160" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-18" target="Pjw4ReAp0QkN3uzusqus-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.768;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-20" target="Pjw4ReAp0QkN3uzusqus-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-33" value="预估差值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pjw4ReAp0QkN3uzusqus-32">
+          <mxGeometry x="-0.3881" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.563;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-22" target="Pjw4ReAp0QkN3uzusqus-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="720" />
+              <mxPoint x="1630" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-35" value="预估差值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pjw4ReAp0QkN3uzusqus-34">
+          <mxGeometry x="-0.4777" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-38" value="替代标志：指本清单成份股信息中列示的用以区别该股票是否被允许使用现金 进行替代交付的标志。&#xa;包括:&#xa;禁止现金替代（简称“禁止”）&#xa;允许现金替代（简 称“允许”）&#xa;必须现金替代（简称“必须”）&#xa;退补现金替代（简称“退补”）四种。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="510" y="820" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-39" value="1.禁止现金替代表示，申购或赎 回本基金份额时必须使用股票，不接受现金替代；&#xa;2.允许现金替代表示，申购本基金份额 时可以先使用股票，在股票不足的情况下可以使用现金替代不足的股票；&#xa;3.必须现金替代表示，在申购或赎回本基金份额时只能使用现金而不接受股票；&#xa;4.退补现金替代标示，在申购、赎回本基金份额时只能使用现金，待基金公司代为买卖之后，根据实际成本进行多退少补。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="950" width="560" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
