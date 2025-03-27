@@ -128,7 +128,7 @@
         <mxCell id="Pjw4ReAp0QkN3uzusqus-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-51" target="Pjw4ReAp0QkN3uzusqus-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pjw4ReAp0QkN3uzusqus-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; background-color: rgb(226, 255, 226);&quot;&gt;&lt;i&gt;深市etf  &amp;amp;&amp;amp; 成分股类型可以现金替代&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; background-color: rgb(226, 255, 226);&quot;&gt;&lt;i&gt;或者&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; background-color: rgb(226, 255, 226);&quot;&gt;&lt;i&gt;沪市etf &amp;amp;&amp;amp; 成分股可以现金替代&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Pjw4ReAp0QkN3uzusqus-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; white-space: pre; background-color: rgb(226, 255, 226);&quot;&gt;&lt;i&gt;可以现金替代 || 禁止现金替代&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="775" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Pjw4ReAp0QkN3uzusqus-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pjw4ReAp0QkN3uzusqus-53" target="Pjw4ReAp0QkN3uzusqus-51">
@@ -153,7 +153,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Pjw4ReAp0QkN3uzusqus-61" value="其实就是 实物条件下，成分股类型为现金替代的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1197.5" y="760" width="285" height="10" as="geometry" />
+          <mxGeometry x="1190" y="760" width="285" height="10" as="geometry" />
         </mxCell>
         <mxCell id="Pjw4ReAp0QkN3uzusqus-62" value="计算预估差值" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1790" y="650" width="60" height="510" as="geometry" />
