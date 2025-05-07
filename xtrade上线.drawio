@@ -28,7 +28,7 @@
         <mxCell id="zA1tRB65HFr1dKg4BN0M-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zA1tRB65HFr1dKg4BN0M-6" target="zA1tRB65HFr1dKg4BN0M-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zA1tRB65HFr1dKg4BN0M-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zA1tRB65HFr1dKg4BN0M-6" value="10090 和 10091 端口，在配置里面改" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="255" width="200" height="290" as="geometry" />
         </mxCell>
         <mxCell id="zA1tRB65HFr1dKg4BN0M-4" value="xtrade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
