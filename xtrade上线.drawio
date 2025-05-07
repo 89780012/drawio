@@ -37,29 +37,41 @@
         <mxCell id="zA1tRB65HFr1dKg4BN0M-5" value="xtrade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="455" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zA1tRB65HFr1dKg4BN0M-7" value="&lt;div style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Noto Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, 微软雅黑, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14.5px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;/smart/api/v1&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="320" width="140" height="40" as="geometry" />
+        <mxCell id="zA1tRB65HFr1dKg4BN0M-7" value="&lt;div style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Noto Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, 微软雅黑, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14.5px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;/smart/api/v1 , 需注意和其他url 是否重复&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="305" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zA1tRB65HFr1dKg4BN0M-10" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="940" y="220" width="60" height="80" as="geometry" />
+          <mxGeometry x="930" y="220" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zA1tRB65HFr1dKg4BN0M-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="950" y="360" width="60" height="80" as="geometry" />
+          <mxGeometry x="940" y="360" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zA1tRB65HFr1dKg4BN0M-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(249, 245, 245), rgb(34, 34, 34)); display: inline !important;&quot;&gt;第二数据源-写trade和order库&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="390" width="190" height="40" as="geometry" />
+        <mxCell id="zA1tRB65HFr1dKg4BN0M-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(249, 245, 245), rgb(34, 34, 34)); display: inline !important;&quot;&gt;第二数据源-济南order流水库&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="390" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zA1tRB65HFr1dKg4BN0M-13" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(252, 248, 248), rgb(34, 34, 34)); display: inline !important;&quot;&gt;主数据源-深圳库&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="250" width="120" height="40" as="geometry" />
+          <mxGeometry x="1020" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zA1tRB65HFr1dKg4BN0M-16" value="redis集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="515" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="515" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zA1tRB65HFr1dKg4BN0M-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(249, 245, 245), rgb(34, 34, 34)); display: inline !important;&quot;&gt;深圳redis 集群&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="530" width="190" height="40" as="geometry" />
+        <mxCell id="zA1tRB65HFr1dKg4BN0M-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(249, 245, 245), rgb(34, 34, 34)); display: inline !important;&quot;&gt;济南的redis集群&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="535" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zA1tRB65HFr1dKg4BN0M-19" value="KESB 生产环境" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zA1tRB65HFr1dKg4BN0M-21" value="&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;nginx 接口调用测试&lt;/font&gt;&lt;/div&gt;&lt;div&gt;curl -k -X POST https://127.0.0.1:9443/smart/api/v1/queryIntegratedEtfInfo -H &quot;Content-Type: application/json&quot; -d &#39;{&quot;a&quot;:&quot;A&quot;}&#39;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zA1tRB65HFr1dKg4BN0M-22" value="&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;nginx 配置&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;upstream xtrade.backend {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;server 10.29.181.136:10090;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; location ~ ^/smart/api/v1 {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_set_header X-Forwarded-Port $remote_port;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_set_header Host $host;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_set_header X-Real-IP $remote_addr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_set_header X-Forwarded-Proto $scheme;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_pass http://xtrade.backend;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="575" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zA1tRB65HFr1dKg4BN0M-23" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;部署到济南机房&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zA1tRB65HFr1dKg4BN0M-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(249, 245, 245), rgb(34, 34, 34)); display: inline !important;&quot;&gt;济南kesb环境&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="650" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
