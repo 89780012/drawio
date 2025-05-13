@@ -1,9 +1,120 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.3.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.1">
   <diagram name="第 1 页" id="QYUlAeLIpQnDjQp-a6tk">
-    <mxGraphModel dx="1426" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-2" target="iviVZ61GXLGjH6ghTdT3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-2" value="数据源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-3" value="财务数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-4" target="iviVZ61GXLGjH6ghTdT3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-4" value="更加通用条件侧" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-5" value="公式： 通过数据源.XXX 获取上有节点数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="496" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-6" value="公式解析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="450" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-7" value="运行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="400" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-8" value="股票合并器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-9" target="iviVZ61GXLGjH6ghTdT3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-9" value="一些票和市场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-11" value="产出绑定key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="556" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-12" value="自动高亮、提示" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="630" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-13" value="后台存在组件实现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-15" value="逻辑与或均是对通用条检侧的封装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-16" target="iviVZ61GXLGjH6ghTdT3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-16" value="剩下的愿意什么条件就说明条件" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-18" target="iviVZ61GXLGjH6ghTdT3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-18" value="其他前置出来的票" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-20" target="iviVZ61GXLGjH6ghTdT3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-20" value="股票池" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-22" target="iviVZ61GXLGjH6ghTdT3-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-22" target="iviVZ61GXLGjH6ghTdT3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-22" target="iviVZ61GXLGjH6ghTdT3-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-22" value="运行" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-24" value="运行条件控制" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-26" value="运行条件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-31" value="运行条件2" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-33" target="iviVZ61GXLGjH6ghTdT3-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-33" value="高级自定义节点，随便写" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-34" value="我们自己运行的实例，客户运行只是把任务提交到我们的实例里面" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="430" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.083;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iviVZ61GXLGjH6ghTdT3-20" target="iviVZ61GXLGjH6ghTdT3-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iviVZ61GXLGjH6ghTdT3-36" value="单独起固定cpu和核的实例托管" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
