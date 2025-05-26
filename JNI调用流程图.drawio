@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="AJdQkS-t9H4T7QmYFVXM">
-    <mxGraphModel dx="1674" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,61 +57,61 @@
         <mxCell id="1DqzALUoF-X8bAJtDd97-17" value="又包了一层，里面有直接调用的实现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="240" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-1" value="通过spi接口回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-1" value="通过spi接口回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="135" y="517" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="547" width="160" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-3" target="1YCD-Yzo4_ilFBmWxxm1-6">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-3" target="1YCD-Yzo4_ilFBmWxxm1-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-3" value="xtp_quote_api.h" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-3" value="xtp_quote_api.h" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-4" value="三方提供的头文件 和 包" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-4" value="三方提供的头文件 和 包" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1160" y="577" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-5" value="libquoteapi.so" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-5" value="libquoteapi.so" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="731" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-6" target="1YCD-Yzo4_ilFBmWxxm1-9">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-6" target="1YCD-Yzo4_ilFBmWxxm1-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-6" value="XtpQuoteApi.h" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-6" value="XtpQuoteApi.h" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-8" value="头文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-8" value="头文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="970" y="600" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-9" target="1YCD-Yzo4_ilFBmWxxm1-12">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-9" target="1YCD-Yzo4_ilFBmWxxm1-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-9" value="XtpQuoteApi.cpp" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-9" value="XtpQuoteApi.cpp" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-11" value="头文件的实现， 可以直接调用spi 包的方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-11" value="头文件的实现， 可以直接调用spi 包的方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="735" y="580" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-12" target="1YCD-Yzo4_ilFBmWxxm1-14">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-12" target="1YCD-Yzo4_ilFBmWxxm1-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-12" value="jar 包 spi实现" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-12" value="jar 包 spi实现" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-14" value="jar api 包装回调" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-14" value="jar api 包装回调" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <UserObject label="&lt;code&gt;TradeSpi.java&lt;/code&gt;" link="&lt;code&gt;TradeSpi.java&lt;/code&gt;" id="1YCD-Yzo4_ilFBmWxxm1-16">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="550" y="600" width="110" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-17" target="1YCD-Yzo4_ilFBmWxxm1-14">
+        <mxCell id="1YCD-Yzo4_ilFBmWxxm1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1YCD-Yzo4_ilFBmWxxm1-17" target="1YCD-Yzo4_ilFBmWxxm1-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;pre class=&quot;code highlight&quot; lang=&quot;plaintext&quot;&gt;&lt;span&gt;TradeApi.java定义供C++调用的接口，内部再转调spi的方法&lt;/span&gt;&#xa;&lt;span&gt;        private void onTradeEvent(TradeResponse tradeInfo, String sessionId) {&lt;/span&gt;&#xa;&lt;span&gt;            tradeSpi.onTradeEvent(tradeInfo, sessionId);&lt;/span&gt;&#xa;&lt;span&gt;        }&lt;/span&gt;&#xa;&lt;/pre&gt;" link="&lt;pre class=&quot;code highlight&quot; lang=&quot;plaintext&quot;&gt;&lt;span&gt;TradeApi.java定义供C++调用的接口，内部再转调spi的方法&lt;/span&gt;&#xa;&lt;span&gt;        private void onTradeEvent(TradeResponse tradeInfo, String sessionId) {&lt;/span&gt;&#xa;&lt;span&gt;            tradeSpi.onTradeEvent(tradeInfo, sessionId);&lt;/span&gt;&#xa;&lt;span&gt;        }&lt;/span&gt;&#xa;&lt;/pre&gt;" id="1YCD-Yzo4_ilFBmWxxm1-17">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="150" y="740" width="500" height="110" as="geometry" />
           </mxCell>
         </UserObject>
