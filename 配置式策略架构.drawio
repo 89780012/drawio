@@ -243,6 +243,90 @@
         <mxCell id="C7FglE39jfFMQdv53OMV-101" value="日志易采集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-104" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="18.75" y="1500" width="1090" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-105" value="模板" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="18.75" y="1620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-106" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158.75" y="1540" width="850" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-107" value="策略市场" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="58.75" y="1620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-108" value="网格策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-109" value="抢涨停" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="368.75" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-110" value="其他策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="518.75" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-112" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="168.75" y="1820" width="840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-114" value="自有策略清单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="58.75" y="1900" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-115" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="1840" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-116" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="183.75" y="1895" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-117" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="1950" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-118" value="网格1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="1850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-119" value="网格2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="1900" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-120" value="网格3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="1955" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-121" value="筛股配置1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308.75" y="1850" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-122" value="筛股配置2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308.75" y="1900" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-124" value="筛股配置3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308.75" y="1960" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-125" value="实例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="58.75" y="2110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-126" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="2090" width="846.25" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-127" value="网格1&amp;nbsp; 筛股配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="2110" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-128" value="执行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="871.25" y="2115" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-129" value="晒出来的股票" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="2160" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-130" value="000001&amp;nbsp; &amp;nbsp; &amp;nbsp; 上限、 下限、 波动率 独立设置&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="2180" width="593.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-131" value="网格列表（下拉选择）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="193.75" y="2115" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-132" value="600000&amp;nbsp; &amp;nbsp; &amp;nbsp; 上限、 下限、 波动率 独立设置&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="2230" width="593.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-133" value="执行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="888.75" y="2180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7FglE39jfFMQdv53OMV-134" value="执行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="888.75" y="2230" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
