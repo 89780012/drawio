@@ -165,14 +165,13 @@
         <mxCell id="C7FglE39jfFMQdv53OMV-66" value="docker 管理端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="895" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C7FglE39jfFMQdv53OMV-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="C7FglE39jfFMQdv53OMV-36">
+        <mxCell id="C7FglE39jfFMQdv53OMV-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C7FglE39jfFMQdv53OMV-66" target="C7FglE39jfFMQdv53OMV-36">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-45.000000000000455" y="995" as="sourcePoint" />
             <mxPoint x="556.6237500000002" y="1070" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-45" y="1090" />
-              <mxPoint x="565" y="1090" />
-              <mxPoint x="565" y="1070" />
+              <mxPoint x="-50" y="1090" />
+              <mxPoint x="564" y="1090" />
             </Array>
           </mxGeometry>
         </mxCell>
