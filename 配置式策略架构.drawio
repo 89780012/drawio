@@ -121,25 +121,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-52" value="1、前端连接后端，并注册特定地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="455" width="110" height="30" as="geometry" />
+          <mxGeometry x="1330" y="575" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C7FglE39jfFMQdv53OMV-53" target="C7FglE39jfFMQdv53OMV-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-53" value="2、发送配置到后端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="455" width="120" height="30" as="geometry" />
+          <mxGeometry x="1530" y="575" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C7FglE39jfFMQdv53OMV-55" target="C7FglE39jfFMQdv53OMV-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-55" value="3、配置落库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="455" width="120" height="30" as="geometry" />
+          <mxGeometry x="1720" y="575" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C7FglE39jfFMQdv53OMV-57" target="C7FglE39jfFMQdv53OMV-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-57" value="策略对应容器连接到配置后端会上报当前内存配置数量，且后续定时上报" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="315" width="160" height="30" as="geometry" />
+          <mxGeometry x="1520" y="435" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C7FglE39jfFMQdv53OMV-57" target="C7FglE39jfFMQdv53OMV-53">
           <mxGeometry relative="1" as="geometry" />
@@ -148,16 +148,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-59" value="4、根据每个容器配置多少选择少的，根据容器标识，将配置发送给容器，成功后更新内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="615" width="220" height="40" as="geometry" />
+          <mxGeometry x="1670" y="735" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C7FglE39jfFMQdv53OMV-60" target="C7FglE39jfFMQdv53OMV-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-60" value="容器起来内存生成一个容器标识" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="315" width="120" height="30" as="geometry" />
+          <mxGeometry x="1290" y="435" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-63" value="注册当前容器标识监听" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="315" width="160" height="30" as="geometry" />
+          <mxGeometry x="1760" y="435" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-65" value="宿主机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="326" y="1000" width="60" height="30" as="geometry" />
@@ -184,7 +184,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-73" value="5. 容器触发下单信号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="735" width="220" height="40" as="geometry" />
+          <mxGeometry x="1670" y="855" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-75" value="smart-server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="451.25" y="1270" width="90" height="40" as="geometry" />
@@ -217,19 +217,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-89" value="6. 通过事件总线下单信号发送至smart-server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="855" width="220" height="40" as="geometry" />
+          <mxGeometry x="1670" y="975" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C7FglE39jfFMQdv53OMV-91" target="C7FglE39jfFMQdv53OMV-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-91" value="注册用户信号唯一地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="980" width="220" height="40" as="geometry" />
+          <mxGeometry x="1670" y="1100" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C7FglE39jfFMQdv53OMV-93" target="C7FglE39jfFMQdv53OMV-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-93" value="客户端登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="982.5" width="140" height="35" as="geometry" />
+          <mxGeometry x="1450" y="1102.5" width="140" height="35" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-97" value="&lt;div style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: light-dark(rgba(59,130,246,.5), #4c89ec); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid; text-decoration: inherit; display: inline-flex; flex-flow: wrap; align-items: center; gap: 0.5rem; font-family: __Roboto_5fd90a, __Roboto_Fallback_5fd90a, Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 15.75px; text-align: left; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;br&gt;&amp;nbsp;桥接&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="490" width="50" height="188" as="geometry" />
