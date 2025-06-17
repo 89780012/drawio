@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="第 1 页" id="DatRSqzjEj-4WdcJNuNi">
-    <mxGraphModel dx="4016" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3764" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-1" value="配置式前端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="365" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-2" value="配置式后端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="365" width="120" height="60" as="geometry" />
@@ -73,7 +73,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-10" value="nginx" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="305" width="80" height="180" as="geometry" />
+          <mxGeometry x="210" y="310" width="80" height="180" as="geometry" />
         </mxCell>
         <mxCell id="C7FglE39jfFMQdv53OMV-13" value="集群模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="280" width="60" height="30" as="geometry" />
@@ -335,6 +335,66 @@
         </mxCell>
         <mxCell id="19MCxqK7fop1f8F2S8Sq-1" value="&lt;div&gt;1. 重构前端流程，画布只保留输入输出变量， 其他配置 右侧面板承担&lt;/div&gt;&lt;div&gt;2. 增加全局面板，配置输入变量，变量为流程中可能的输入， 增加元数据，变成动态表单。&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. 流程编排 输入变量，可选择流程全局面板， 以及上游节点可能的变量&lt;/div&gt;&lt;div&gt;4. 前端改造 是否重构后端？&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. 目前为筛股面板， 增加策略模板界面，和后端联动 ， 增加择时界面， 和单个策略保持联动性 - 用于快速验证&lt;/div&gt;&lt;div&gt;6. 前端集成vertx 通信机制，能够和后端保持实时通信&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;7. 增加策略端（网格）的动态上报&lt;/div&gt;&lt;div&gt;8. 策略后端重启恢复机制、根据承载量动态路由到指定节点机制&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;9. smart-server 集成vertx 通信，保持和策略后端实时通信&lt;/div&gt;&lt;div&gt;10. smart-server 用户trade登录后注册地址&lt;/div&gt;&lt;div&gt;11.&amp;nbsp; 网格策略 针对多组 生成信号，向 server 传输下单信号&lt;/div&gt;&lt;div&gt;12. 对部分数据采用 messagePack 或 protobuf 增大传输量&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-870" y="380" width="830" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-2" value="10001" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-3" value="10001" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19MCxqK7fop1f8F2S8Sq-6" target="19MCxqK7fop1f8F2S8Sq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-6" value="固定票" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="2028" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19MCxqK7fop1f8F2S8Sq-7" target="19MCxqK7fop1f8F2S8Sq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="19MCxqK7fop1f8F2S8Sq-7" target="19MCxqK7fop1f8F2S8Sq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-7" value="判定下单" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-8" value="成功" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-9" value="10只票" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="2040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="19MCxqK7fop1f8F2S8Sq-12" target="19MCxqK7fop1f8F2S8Sq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-12" value="失败" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2245" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19MCxqK7fop1f8F2S8Sq-14" target="19MCxqK7fop1f8F2S8Sq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-14" value="价格 上线+2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="19MCxqK7fop1f8F2S8Sq-16" target="19MCxqK7fop1f8F2S8Sq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-16" value="买入" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19MCxqK7fop1f8F2S8Sq-19" target="19MCxqK7fop1f8F2S8Sq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-19" value="微批" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1815" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19MCxqK7fop1f8F2S8Sq-21" target="19MCxqK7fop1f8F2S8Sq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-21" value="选股" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19MCxqK7fop1f8F2S8Sq-23" value="分钟级" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1960" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
