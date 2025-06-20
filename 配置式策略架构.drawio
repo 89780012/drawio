@@ -405,7 +405,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="19MCxqK7fop1f8F2S8Sq-12" value="失败" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1645" y="2205" width="80" height="80" as="geometry" />
+          <mxGeometry x="1645" y="2210" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="19MCxqK7fop1f8F2S8Sq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="19MCxqK7fop1f8F2S8Sq-30" target="19MCxqK7fop1f8F2S8Sq-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -581,7 +581,7 @@
           <mxGeometry x="1860" y="1895" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5ITj6RVV5ofWq9RXocO1-45" value="普通交易" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1655" y="2340" width="70" height="30" as="geometry" />
+          <mxGeometry x="1660" y="2340" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5ITj6RVV5ofWq9RXocO1-47" value="整个流程需要依据实例id 作为流转" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2120" y="2120" width="170" height="40" as="geometry" />
