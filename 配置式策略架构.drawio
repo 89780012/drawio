@@ -663,6 +663,9 @@
         <mxCell id="oESZbmQaGJTjOboQeimZ-33" value="1. 每天定时将配置发送给下游，外部任务触发。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-21" y="3760" width="261" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="oESZbmQaGJTjOboQeimZ-34" value="T0算法，经过沟通，只暴露给客户策略id, 和票， 没有额外参数。 仅可以启停" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-7.119999999999999" y="4350" width="261" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
