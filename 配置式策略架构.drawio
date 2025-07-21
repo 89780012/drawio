@@ -7,7 +7,7 @@
         <mxCell id="oESZbmQaGJTjOboQeimZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oESZbmQaGJTjOboQeimZ-14" target="oESZbmQaGJTjOboQeimZ-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oESZbmQaGJTjOboQeimZ-25" value="幂等性校验，不重复消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oESZbmQaGJTjOboQeimZ-23">
+        <mxCell id="oESZbmQaGJTjOboQeimZ-25" value="同节点 幂等性校验，不重复消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oESZbmQaGJTjOboQeimZ-23">
           <mxGeometry x="0.1417" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -646,7 +646,7 @@
           <mxGeometry x="486.72" y="4050" width="107.05" height="30.22" as="geometry" />
         </mxCell>
         <mxCell id="oESZbmQaGJTjOboQeimZ-22" value="下游下单节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="968.75" y="3670" width="80" height="80" as="geometry" />
+          <mxGeometry x="1080" y="3670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oESZbmQaGJTjOboQeimZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oESZbmQaGJTjOboQeimZ-27" target="oESZbmQaGJTjOboQeimZ-1">
           <mxGeometry relative="1" as="geometry" />
@@ -665,6 +665,24 @@
         </mxCell>
         <mxCell id="oESZbmQaGJTjOboQeimZ-34" value="T0算法，经过沟通，只暴露给客户策略id, 和票， 没有额外参数。 仅可以启停" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-7.119999999999999" y="4350" width="261" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oESZbmQaGJTjOboQeimZ-35" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="828.75" y="3970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oESZbmQaGJTjOboQeimZ-41" value="快速恢复阶段不接请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="3610" width="165" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="oESZbmQaGJTjOboQeimZ-43" value="不同节点接收数据拒绝，以后来的为主，策略id、票、节点id、时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="901.25" y="3750" as="geometry" />
+        </mxCell>
+        <mxCell id="oESZbmQaGJTjOboQeimZ-45" value="记内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="925" y="3810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oESZbmQaGJTjOboQeimZ-46" value="创建时间早的下游不接数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="591.5" y="3659" width="180" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="oESZbmQaGJTjOboQeimZ-47" value="创建时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="596.25" y="3985" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
