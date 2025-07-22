@@ -768,7 +768,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bLEHWNqU7EeM-0Z7cHcG-30" value="ACK回复，如果需要建立信道，则返回信道地址， 用户维度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bLEHWNqU7EeM-0Z7cHcG-29">
+        <mxCell id="bLEHWNqU7EeM-0Z7cHcG-30" value="ACK回复，如果需要建立信道，则返回根据key对应信道地址， 用户维度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bLEHWNqU7EeM-0Z7cHcG-29">
           <mxGeometry x="0.2917" y="4" relative="1" as="geometry">
             <mxPoint x="81" y="-4" as="offset" />
           </mxGeometry>
@@ -850,30 +850,30 @@
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bLEHWNqU7EeM-0Z7cHcG-49" target="bLEHWNqU7EeM-0Z7cHcG-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bLEHWNqU7EeM-0Z7cHcG-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bLEHWNqU7EeM-0Z7cHcG-49">
+        <mxCell id="bLEHWNqU7EeM-0Z7cHcG-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bLEHWNqU7EeM-0Z7cHcG-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="126.5" y="5420" as="targetPoint" />
+            <mxPoint x="126.5" y="5350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-49" value="server 同一个节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="43" y="4990" width="167" height="220" as="geometry" />
         </mxCell>
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-56" value="下单节点， 用户维度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760.25" y="5440" width="167" height="220" as="geometry" />
+          <mxGeometry x="760.25" y="5370" width="167" height="220" as="geometry" />
         </mxCell>
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-57" value="8.记录下单指令 以及节点 和节点启动时间&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="472.25" y="5590" width="261" height="35" as="geometry" />
+          <mxGeometry x="472.25" y="5520" width="261" height="35" as="geometry" />
         </mxCell>
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-58" value="&lt;div&gt;1. 同节点做幂等性验证&amp;nbsp;&lt;/div&gt;&lt;div&gt;2.&amp;nbsp; 同节点不同容器（异常的）则以启动时间晚的为主， 记录内存和异常日志，主动屏蔽掉较早时间发送的指令&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="705" y="5680" width="280" height="70" as="geometry" />
+          <mxGeometry x="700" y="5620" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bLEHWNqU7EeM-0Z7cHcG-59">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="5540" as="targetPoint" />
+            <mxPoint x="760" y="5470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-59" value="server 同一个节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="39.87" y="5430" width="167" height="220" as="geometry" />
+          <mxGeometry x="39.87" y="5360" width="167" height="220" as="geometry" />
         </mxCell>
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-64" value="内存队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-30.130000000000003" y="4400" width="70" height="30" as="geometry" />
