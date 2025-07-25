@@ -940,7 +940,7 @@
           <mxGeometry x="-288" y="5667.5" width="223.75" height="94.5" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1700" y="5870" width="1140" height="460" as="geometry" />
+          <mxGeometry x="-1440" y="5870" width="880" height="460" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-9" value="外部节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-158.13" y="6010" width="130.48" height="50" as="geometry" />
