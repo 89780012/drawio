@@ -919,24 +919,6 @@
         <mxCell id="bLEHWNqU7EeM-0Z7cHcG-78" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="4050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-1" value="源数据 {&lt;div&gt;&amp;nbsp; &amp;nbsp;工作流实例ID， 异构节点ID、目标节点ID, 起始队列、结束队列&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;左闭、右闭原则&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-643.75" y="5672" width="230" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-2" value="源数据 {&lt;div&gt;&amp;nbsp; &amp;nbsp;工作流实例ID， 源节点、目标节点、&amp;nbsp; 序列号、时间戳、消息类型&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;负载payload&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-978.77" y="5672" width="230" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-3" value="流转消息节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-933.52" y="5632" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-4" value="异构消息请求数据恢复 数据结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="5620" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-6" value="入站消息序列验证结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-248.5" y="5632" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-7" value="SEQUENTIAL 消息顺序正确， GAP_DELETED 检测到序列存在间隙，&lt;div&gt;DUPLICATE: 存在重复值、只打日志&lt;/div&gt;&lt;div&gt;INVALID 无效值&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-288" y="5667.5" width="223.75" height="94.5" as="geometry" />
-        </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1430" y="5870" width="880" height="450" as="geometry" />
         </mxCell>
@@ -961,14 +943,8 @@
         <mxCell id="iEi4Mf3yU508XOGikMsj-18" value="RecoveryRequest&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-594.5" y="5580" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-19" value="NodeExecutionMessage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-950.13" y="5600" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-20" value="inBound" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1240" y="5945" width="640" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-22" value="入站的校验" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-660" y="5870" width="103.75" height="30" as="geometry" />
+          <mxGeometry x="-1370" y="5945" width="770" height="310" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iEi4Mf3yU508XOGikMsj-23" target="iEi4Mf3yU508XOGikMsj-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -991,7 +967,7 @@
         <mxCell id="iEi4Mf3yU508XOGikMsj-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iEi4Mf3yU508XOGikMsj-27" target="iEi4Mf3yU508XOGikMsj-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-27" value="向目标节点分派数据" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="iEi4Mf3yU508XOGikMsj-27" value="处理" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-901" y="5960" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-29" value="记录序列值" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -1001,40 +977,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-31" value="获取最后处理的节点id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-901" y="6060" width="70" height="70" as="geometry" />
+          <mxGeometry x="-903.52" y="6060" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iEi4Mf3yU508XOGikMsj-33" target="iEi4Mf3yU508XOGikMsj-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-33" value="构建缺失范围" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-1051" y="6060" width="70" height="70" as="geometry" />
+          <mxGeometry x="-1085" y="6060" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-35" value="构建缺失范围" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-1201" y="6060" width="70" height="70" as="geometry" />
+        <mxCell id="iEi4Mf3yU508XOGikMsj-35" value="数据补偿一次并排序" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-1210" y="6060" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-37" value="恢复节点地址" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-200" y="6230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-38" value="recovery.request.instanceid.nodeId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-273.5" y="6320" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-39" value="数据接收到后，请求响应模型恢复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-270.23" y="6370" width="200" height="30" as="geometry" />
+        <mxCell id="iEi4Mf3yU508XOGikMsj-38" value="recovery.request.noteType1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-253.5" y="6320" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-40" value="打印处理" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-901" y="6160" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iEi4Mf3yU508XOGikMsj-44" target="iEi4Mf3yU508XOGikMsj-50" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-44" value="出站节点数据恢复" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1048.77" y="6300" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-46" value="outbound.recovery.request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-933.52" y="6350" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-50" value="请求响应模型" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-1048.77" y="6450" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iEi4Mf3yU508XOGikMsj-53" target="iEi4Mf3yU508XOGikMsj-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1139,16 +1106,28 @@
           <mxGeometry x="140" y="6060" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iEi4Mf3yU508XOGikMsj-84" value="&lt;code style=&quot;box-sizing: border-box; border: 0px solid; padding: 0px 2px; font-family: var(--vscode-editor-font-family, monospace); font-feature-settings: var(--default-mono-font-feature-settings,normal); font-variation-settings: var(--default-mono-font-variation-settings,normal); font-size: 13px; background-color: var(--vscode-textPreformat-background) !important; color: var(--vscode-textPreformat-foreground) !important; border-radius: 4px; white-space: pre-line; word-break: break-word; overflow-wrap: anywhere; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;传统通道workflow.{instanceId}.node.{nodeId}&lt;/code&gt;&lt;span style=&quot;color: rgb(137, 209, 133); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-408" y="5860" width="340" height="30" as="geometry" />
+          <mxGeometry x="-430" y="5840" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-86" value="最大数据不允许超过100条" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-691" y="6400" width="211" height="30" as="geometry" />
+        <mxCell id="AgqSDV4CooK9aydgJreH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AgqSDV4CooK9aydgJreH-6" target="iEi4Mf3yU508XOGikMsj-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-88" value="后台节点区分两类节点，一类为静态节点， 一类为数据流驱动节点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1380" y="5680" width="211" height="30" as="geometry" />
+        <mxCell id="AgqSDV4CooK9aydgJreH-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-223" y="6420" width="235" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="iEi4Mf3yU508XOGikMsj-89" value="数据驱动节点全部要封装为消息节点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1380" y="5740" width="211" height="30" as="geometry" />
+        <mxCell id="AgqSDV4CooK9aydgJreH-7" value="外部节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-163.63" y="6480" width="130.48" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgqSDV4CooK9aydgJreH-8" value="外部节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-162.86" y="6610" width="130.48" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgqSDV4CooK9aydgJreH-9" value="恢复节点地址" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-205.5" y="6700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AgqSDV4CooK9aydgJreH-10" value="recovery.request.noteType2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-259" y="6790" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AgqSDV4CooK9aydgJreH-12" value="metadata: {&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;instanceId,&amp;nbsp; 实例ID&lt;/div&gt;&lt;div&gt;sourceNodeId, 源节点ID&lt;/div&gt;&lt;div&gt;targetNodeId, 目标节点ID&lt;/div&gt;&lt;div&gt;sequenceId, 序列ID&lt;/div&gt;&lt;div&gt;timestamp,&amp;nbsp; &amp;nbsp;时间&lt;/div&gt;&lt;div&gt;messageType 消息类型&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;},&lt;/div&gt;&lt;div&gt;payload: {}&amp;nbsp; 负载&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-981.25" y="6490" width="180" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
